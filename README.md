@@ -75,3 +75,10 @@ Unique solution:
 * Better partial pivoting (maximum element)
 * Parametric form printing for infinite solutions
 * Determinant calculation for square matrice
+
+## Development Journey
+
+This project was first written in 2024 as a basic implementation using manual row operations and `goto` statements (original "hustle" version). No modularity, everything is in `main()` function.
+I later rewrote it with proper Gauss-Jordan elimination, better pivoting, floating-point safety using EPS. But the original provided **Parametric form printing for infinite solutions** . Thus, I want to include the improved parametric solution for infinite cases.
+
+The current version is cleaner, more reliable, and follows better C programming practices.
